@@ -27,6 +27,7 @@ var storage = multer.diskStorage({
 	}
 });
 
+
 var upload = multer({ storage: storage });
 
 app.get('/', (req, res) => {
@@ -62,7 +63,7 @@ app.post('/', upload.single('image'), (req, res, next) => {
 	});
 });
 
-var port = process.env.PORT || '3002'
+var port = process.env.PORT || 3003;
 app.listen(port, err => {
 	if (err)
 		throw err
