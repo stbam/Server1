@@ -19,7 +19,9 @@
     "web-vitals": "^2.1.4"
   },
   "scripts": {
-    "start": "react-scripts start",
+    "start:file1": "nodemon file1.js",
+    "start:file2": "nodemon file2.js",
+    "start:file3": "npm start",
     "build": "react-scripts build",
     "test": "react-scripts test",
     "eject": "react-scripts eject"
