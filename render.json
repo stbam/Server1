@@ -1,0 +1,20 @@
+{
+    "services": [
+      {
+        "name": "service-file1",
+        "env": "node",
+        "startCommand": "nodemon app.js"
+      },
+      {
+        "name": "service-file2",
+        "env": "node",
+        "startCommand": "nodemon app1.js"
+      },
+      {
+        "name": "service-file3",
+        "env": "node",
+        "startCommand": "npm start"
+      }
+    ]
+  }
+  
