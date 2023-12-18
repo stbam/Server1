@@ -19,8 +19,8 @@
     "web-vitals": "^2.1.4"
   },
   "scripts": {
-    "start-server": "node app.js",
-    "start": "npm run start-server",
+    "start-server": "echo 'Starting server' && nodemon app.js",
+    "start": "echo 'Starting application' && npm run start-server",
     "build": "react-scripts build",
     "test": "react-scripts test",
     "eject": "react-scripts eject"
