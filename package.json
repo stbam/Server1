@@ -19,7 +19,7 @@
     "web-vitals": "^2.1.4"
   },
   "scripts": {
-    "start-server": "nodemon app.js",
+    "start-server": "node app.js",
     "start": "npm run start-server",
     "build": "react-scripts build",
     "test": "react-scripts test",
